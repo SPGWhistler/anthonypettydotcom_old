@@ -302,7 +302,10 @@ textarea {
 body {
 	font-family: verdana;
 }
-
+a {
+	color: #000;
+	text-decoration: none;
+}
 #main_container {
 	width: 100%;
 }
@@ -315,22 +318,37 @@ body {
 }
 #menu {
 	float: left;
+	height: 600px;
 	padding-right: 20px;
+	position: relative;
 	text-align: right;
+	width: 355px;
+}
+#menu ul {
+	display: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 50%;
 	width: 355px;
 }
 #divider {
 	background: url('../img/line.gif');
 	float: left;
+	height: 600px;
 	margin: 0 auto;
 	width: 1px;
-	height: 600px;
 }
 #content {
 	float: left;
+	height: 600px;
 	padding-left: 20px;
-	max-width: 500px;
+	position: relative;
+	width: 500px;
 }
 .content {
 	display: none;
+	position: absolute;
+	top: 50%;
 }
