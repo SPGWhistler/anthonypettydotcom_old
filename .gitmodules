@@ -1,0 +1,9 @@
+[submodule "modules/respond"]
+	path = modules/respond
+	url = https://github.com/scottjehl/Respond
+[submodule "modules/html5shiv"]
+	path = modules/html5shiv
+	url = https://github.com/aFarkas/html5shiv
+[submodule "modules/bootstrap"]
+	path = modules/bootstrap
+	url = https://github.com/twbs/bootstrap
