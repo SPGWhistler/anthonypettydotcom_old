@@ -2,8 +2,10 @@
 <html>
 	<head>
 		<title>AnthonyPetty.com</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<link href="modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="css/styles.css" rel="stylesheet" media="screen">
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
 			<script src="modules/html5shiv/dist/html5shiv.js"></script>
@@ -11,10 +13,78 @@
 		<![endif]-->
 	</head>
 	<body>
-		 <h1>Hello, world!</h1>
+		<nav id="headernav" class="navbar navbar-default my-nav" role="navigation">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#hello">Anthony Petty</a>
+			</div>
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#hello">hello</a></li>
+					<li><a href="#about">about</a></li>
+					<li><a href="#work">work</a><li>
+					<li><a href="#resume">r&eacute;sum&eacute;</a></li>
+					<li><a href="#recommendations">recommendations</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">social<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="http://www.linkedin.com/pub/anthony-petty/50/8b0/2a8">linkedin</a></li>
+							<li><a href="https://github.com/spgwhistler">github</a></li>
+							<li><a href="https://geekli.st/SPGWhistler">geekli.st</a></li>
+							<li><a href="https://www.facebook.com/anthony.petty.376">facebook</a></li>
+						</ul>
+					</li>
+					<li><a href="#fun">fun</a></li>
+					<li><a href="#contact">contact</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container">
+			<div id="hello" class="col-sm-8">
+				hello
+			</div>
+			<div id="about" class="col-sm-8">
+				<p>I am a creative individual who loves computers and all things electronic. I have a special passion for programming that I have been developing since I was three years old (my first computer was a Commodore 64).</p>
+				<p>I love to learn how things work which often leads me to finding ways to improve their original functionality. This comes out in my programming as I constantly try to write code that works well, then re-write it as needed to make it work more efficiently.</p>
+				<p>I have been programming websites since I was 14, professionally since I was 18. I started in PHP, and have since learned Javacript, Flex, CSS, valid HTML, and many more. I enjoy learning new technologies and looking for ways to challenge my current abilities.</p>
+				<p>Along with my high school education, I have over eleven years of PHP experience, two years of Flex experience, three years of Javascript experience, and five years of MySQL experience.</p>
+				<p>Check out my recent work for some examples of things I've been working on lately.</p>
+				<p>For the past three and a half years I've been working as a freelance employee of Stock20.com and I have been their sole web programmer. Stock20 is looking to downsize some of their operations and wont be requiring a full time web programmer any more. So I am looking to join the team of a great company that requires someone with top of the line PHP, Flex, Javascript, and MySQL programming skills.</p>
+			</div>
+			<div id="work" class="col-sm-8">
+			</div>
+			<div id="resume" class="col-sm-8">
+				Click below to download my r&eacute;sum&eacute;:<br>
+				pdf or doc
+			</div>
+			<div id="recommendations" class="col-sm-8">
+				<blockquote>"I have known Tony Petty for about seven years. I've been his employer in some form for approximately six of those seven. In that time Tony has demonstrated intelligence, integrity, a solid work ethic, and a creative approach to problem solving."<br>
+				<cite>- Daniel Rudd, former employer <a href="read.html">read full recommendation</a></cite></blockquote>
+				<blockquote>"Tony has a unique ability to trouble-shoot and problem-solve complex systems of all kinds. He works dilligently to complete tasks and develop new skills to accomplish even more. Tony has a positive attitude and good communication skills that enable him to be a strong team-player."<br>
+				<cite>- James Bean, former superior</cite></blockquote>
+				<blockquote>"Tony is a very ethical and conscientious person. Anything I have seen him undertake, he dedicates himself to doing the best job he possibly can. I have seen few people who tackle information technology with such a relentless passion for improvement and quality."<br>
+				<cite>- Tim Pierce, friend</cite></blockquote>
+			</div>
+			<div id="fun" class="col-sm-8">
+			</div>
+			<div id="contact" class="col-sm-8">
+				<b>Anthony Petty</b><br>
+				(716) 489-8669<br>
+				www.AnthonyPetty.com<br>
+				anthony@anthonypetty.com<br>
+				509 Potomac Ave, Lower, Buffalo, NY 14222
+			</div>
+		</div>
 
 		<script src="js/jquery-1.10.2.min.js"></script>
 		<script src="modules/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="js/index.js"></script>
 	</body>
 
 </html>
