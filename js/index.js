@@ -1,6 +1,7 @@
 /*global $ */
 (function () {
 	$(function () {
+		var loc;
 		$('#headernav a').each(function () {
 			var $this, href;
 			$this = $(this);
@@ -14,5 +15,18 @@
 				});
 			}
 		});
+		$('a.navbar-brand').click(function () {
+			$('#headernav li a[href="#hello"]').click();
+		});
+		loc = window.location.hash;
+		if (loc !== "") {
+			$('#headernav li').removeClass('active');
+			$('#headernav li a[href="' + loc + '"]').parent().addClass('active');
+			$('.container>div').hide();
+			$(loc).show();
+		} else {
+			$('#headernav li a[href="#home"]').parent().addClass('active');
+			$('#hello').show();
+		}
 	});
 }());
