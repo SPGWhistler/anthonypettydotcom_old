@@ -19,6 +19,9 @@
 	color: #000;
 	line-height: 1px;
 }
+nav {
+	display: none;
+}
 cite {
 	float: right;
 }
@@ -45,8 +48,10 @@ cite {
 	background: #fff;
 	font-weight: bold;
 }
-.navbar-nav {
-	float: right;
+@media (min-width: 768px) {
+	.navbar-nav {
+		float: right;
+	}
 }
 .container>div {
 	display: none;
