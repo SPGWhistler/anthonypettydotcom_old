@@ -47,10 +47,10 @@
 		</nav>
 
 		<div class="container">
-			<div id="hello" class="col-sm-8">
+			<div id="hello" class="col-md-8">
 				hello
 			</div>
-			<div id="about" class="col-sm-8">
+			<div id="about" class="col-md-8">
 				<img style="float: right; max-width: 35%;" src="images/me.jpg" class="img-responsive" alt="A picture of Anthony Petty" />
 				<p>I am a creative individual who loves computers and all things electronic. I have a special passion for programming that I have been developing since I was three years old (my first computer was a Commodore 64).</p>
 				<p>I love to learn how things work, and I've been taking things apart, fixing them, and making them better since I was a child. This lead me naturally to programming. I also consider myself to be a bit lazy. I consider that a good trait in development because it means I do not like doing things twice. So I am very efficient, and I am very good at automating tasks.</p>
@@ -58,13 +58,126 @@
 				<p>I have over sixteen years of PHP experience, seven years of Javascript experience, and thousands of hours experience with various other languages and tools. I've helped architect, develop, and maintain enterprise level software grossing hundreds of millions of dollars annually. I'm very comfortable working with a team of other developers using the agile methodology.</p>
 				<p>Check out my recent work for some examples of things I've been working on lately.</p>
 			</div>
-			<div id="work" class="col-sm-8">
+			<div id="work" class="col-md-8">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Current</h3>
+					</div>
+					<div class="panel-body">
+						<p>Here's what I'm currently working on:</p>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<a href="http://spgwhistler.wordpress.com/tag/wyleijs/"><h3 class="panel-title">wylei.js</h3></a>
+							</div>
+							<div class="panel-body">
+								I've been rewritting the wylei.js file to break it out into several modules.
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<a href="http://spgwhistler.wordpress.com/tag/wylei/"><h3 class="panel-title">wylei corp website</h3></a>
+							</div>
+							<div class="panel-body">
+								Using mockups from a coworker, I built the wylei corp website in about four days. It works on all devices, which is pretty neat. Using bootstrap.
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<a href="http://spgwhistler.wordpress.com/tag/unscrambler/"><h3 class="panel-title">unscrambler - app tester</h3></a>
+							</div>
+							<div class="panel-body">
+								Since I do a lot of hybrid app testing and debugging, I've been slowly working on a neat debugging app that can be used to easily test new features.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Recent</h3>
+					</div>
+					<div class="panel-body">
+						<p>Here are some major recent projects:</p>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<a href="http://apphub.appmobi.com/controlpanel/default/login/"><h3 class="panel-title">apphub</h3></a>
+							</div>
+							<div class="panel-body">
+								<p>AppHub is the control panel for mobile developers using the AppMobi cloud services. I built the entire control panel in php by hand.</p>
+								<p>It is built on a custom framework that I was required to use. I modified the framework heavily to be more cacheable, responsive, and manageable.</p>
+								<p>The cloud services are built in C# - so this site interfaces with them via ajax and jsonp.</p>
+								<p>I would have liked to make the site usable on mobile, but that was not a design requirement. :-(</p>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<a href="http://www.appmobi.com/"><h3 class="panel-title">appmobi corp website</h3></a>
+							</div>
+							<div class="panel-body">
+								<p>One of the recent sites I've built. Not as sexy as Wylei.com, but it's still interesting because it is built as a wordpress theme so it can easily be changed - not only content wise, but design wise.</p>
+								<p>Not only the main site, but also the docs site is a wordpress template. So both of these sites can be managed by non-technical people at the company.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Older</h3>
+					</div>
+					<div class="panel-body">
+						<p>Here are some older, but fairly important or neat projects that I've worked on:</p>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<a href="http://charter.net/search/index.php?context=homepage&tab=Web&q=cows"><h3 class="panel-title">serp (search engine results page)</h3></a>
+							</div>
+							<div class="panel-body">
+								<p>At Synacor, I was on the Search and Advertising team. Here is the search page that I helped architect and build. It features several pieces of technology including perl, php, javascript, mustache, xml, rest, json, html5, php unit, moose, catalyst, and several others.</p>
+								<p>The serp is a type of federated search page - it brings in results from several providers and agregates them onto a single page. The fun part is that it must do this and return the page in under 1000ms - up to 4000 times a second.</p>
+								<p>At the time we built it, the serp was getting over 30 million unique hits per month across more than 60 different web portals. I believe those numbers have only gone up.</p>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<a href="http://charter.net/"><h3 class="panel-title">ads</h3></a>
+							</div>
+							<div class="panel-body">
+								<p>At Synacor I was also responsible for all ads across all portals. I helped architect and develop the ad serving infrastructure to serve more than 3000 unique ad placements across all of Synacor's clients.</p>
+								<p>Although the infrastructe has changed recently to use GPT (Google Publisher Tags), when we built it originally it was capable of serving up to 4000 unique requests per second, all of which were targeted to the specific user requesting them.</p>
+								<p>Technologies involved were php, perl, javascript, jquery, extjs, and others.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Ancient</h3>
+					</div>
+					<div class="panel-body">
+						<p>This stuff is really really old. View at your own risk.</p>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<a href="http://www.stock20.com/"><h3 class="panel-title">stock20</h3></a>
+							</div>
+							<div class="panel-body">
+								<p>Stock20.com is a stock music e-commerce site that I built in 2005. It used zen-cart (an oscommerce fork built on php 4), and tables *shudder*.</p>
+								<p>I didn't just build the site though - I also managed the server and the process of getting audio up on to the site. This was very involved so I built an AutoIT script and some bash and php scripts to do it for me.</p>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<a href="http://www.redbeardmusic.com/"><h3 class="panel-title">redbeard music</h3></a>
+							</div>
+							<div class="panel-body">
+								Redbeard Music was a stock20 offshoot. It used the same backend as Stock20, but a different frontend design.
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div id="resume" class="col-sm-8">
+			<div id="resume" class="col-md-8">
 				Click below to download my r&eacute;sum&eacute;:<br>
 				<a href="anthony_petty.pdf">pdf</a> or <a href="http://www.linkedin.com/pub/anthony-petty/50/8b0/2a8">linkedin</a>
 			</div>
-			<div id="recommendations" class="col-sm-8">
+			<div id="recommendations" class="col-md-8">
 				<blockquote>"I have known Tony Petty for about seven years. I've been his employer in some form for approximately six of those seven. In that time Tony has demonstrated intelligence, integrity, a solid work ethic, and a creative approach to problem solving."<br>
 				<cite>- Daniel Rudd, former employer</cite></blockquote>
 				<blockquote>"Tony has a unique ability to trouble-shoot and problem-solve complex systems of all kinds. He works dilligently to complete tasks and develop new skills to accomplish even more. Tony has a positive attitude and good communication skills that enable him to be a strong team-player."<br>
@@ -72,11 +185,11 @@
 				<blockquote>"Tony is a very ethical and conscientious person. Anything I have seen him undertake, he dedicates himself to doing the best job he possibly can. I have seen few people who tackle information technology with such a relentless passion for improvement and quality."<br>
 				<cite>- Tim Pierce, friend</cite></blockquote>
 			</div>
-			<div id="fun" class="col-sm-8">
+			<div id="fun" class="col-md-8">
 				<p>I have no fun. :-(</p>
 				<p>Just kidding. I just havn't had the chance to put stuff here yet. In the mean time, <a href="http://labs.echonest.com/Uploader/index.html">check this out</a>.</p>
 			</div>
-			<div id="contact" class="col-sm-8">
+			<div id="contact" class="col-md-8">
 				<b>Anthony Petty</b><br>
 				(716) 489-8669<br>
 				www.AnthonyPetty.com<br>
